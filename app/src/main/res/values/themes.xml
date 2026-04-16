@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FoodOrdering" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/bg_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="Theme.FoodOrdering" parent="Base.Theme.FoodOrdering" />
+
+    <!-- Circular Image Style -->
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
